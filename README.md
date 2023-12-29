@@ -5,7 +5,7 @@ psql \copy 명령으로 만들어진 테이블 자료 파일을 다중 쓰레드
 
 ## build
 ```shell
-cc -Wall -I`pg_config --includedir` -L`pg_config --libdir` -lpq -o pg_mcopy pg_mcopy.c
+cc -Wall -I`pg_config --includedir` -L`pg_config --libdir` -o pg_mcopy pg_mcopy.c -lpq
 ```
 
 ## usage
