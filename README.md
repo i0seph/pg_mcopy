@@ -1,7 +1,7 @@
 # pg_mcopy
-2023년 연말 휴가 때 심심해서 만든 C 프로그램
+parallel copy for postgresql
 
-psql \copy 명령으로 만들어진 테이블 자료 파일을 다중 쓰레드로 copy 명령을 이용해서 다시 테이블로 넣는 프로그램
+A program that returns a table data file created with the psql \copy command to a table using the copy command with multiple threads.
 
 ## build
 ```shell
